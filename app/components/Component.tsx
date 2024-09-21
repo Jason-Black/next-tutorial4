@@ -1,7 +1,7 @@
 'use client'
 
 // Import dependencies
-import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion'
+import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
 import ServicesSection from './ServicesSection'
 import Navbar from './Navbar'
 import Hero from './Hero'
@@ -57,13 +57,13 @@ export const projects = [
 export default function Component() {
   const [isScrolled, setIsScrolled] = useState(false)
   const { scrollY } = useScroll()
-  let lastScrollY = 0
+ 
 
   // Monitor scroll behavior to trigger Navbar animation
   useMotionValueEvent(scrollY, "change", (latest) => {
     const currentScrollY = latest
     setIsScrolled(currentScrollY > 20)
-    lastScrollY = currentScrollY
+
   })
 
   return (

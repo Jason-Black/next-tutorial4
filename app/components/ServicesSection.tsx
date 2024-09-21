@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useAnimation } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Palette, Megaphone, Code, ArrowRight, LucideIcon } from 'lucide-react';
 
