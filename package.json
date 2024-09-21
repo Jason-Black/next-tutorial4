@@ -1,0 +1,31 @@
+{
+  "name": "next-tutorial4",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^11.5.6",
+    "lucide-react": "^0.445.0",
+    "next": "14.2.13",
+    "next-export-optimize-images": "^4.5.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.13.1",
+    "react-scroll-motion": "^0.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
